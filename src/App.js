@@ -9,7 +9,7 @@ function App() {
         <h1 className="text-2xl md:text-5xl text-semibold">Contact Details</h1>
       </div>
       
-      <div className="flex flex-wrap gap-5 justify-center px-24">
+      <div className="flex flex-wrap gap-5 justify-center px-10 md:px-24">
       {
         data.map((item) => {
             return (
